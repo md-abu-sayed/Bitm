@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:orientation="vertical"
+    tools:context="com.example.toshiba.menudrawer.Family">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/family_hader"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/parent"
+        android:textSize="20dp"
+        android:text="Father's Name : MD.NUR MOHIMMED\nMother's Name : MRS.KAHINUR BEGUM\n::::::::::::BROTHER:::::::\n1 : Md.Abu Saleh\n2 : Md.Abul Kalam\n3 : Md.Abul Basher\n4 : Md.Abu Jafar\n5 : Md.Abul Khayer\n::::::::::SISTER:::::\nMosa.Jannatul Ferdush Mukta"/>
+</LinearLayout>

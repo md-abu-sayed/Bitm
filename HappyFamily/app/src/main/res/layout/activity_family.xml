@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16a424"
+    tools:context="com.example.toshiba.happyfamily.Family"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/welcome"
+            android:layout_centerVertical="true"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#8A0C6D"
+            android:textColor="#0afbaf"
+            android:text="ABOUT ME"
+            android:textSize="30dp"
+            android:onClick="aboutme"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:id="@+id/btn1"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#941825"
+            android:textColor="#1de907"
+            android:text="ABOUT MY PARENT"
+            android:textSize="20dp"
+            android:onClick="aboutparent"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:id="@+id/btn2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0e22ba"
+            android:textColor="#fb8f0a"
+            android:text="ABOUT MY BROTHER"
+            android:textSize="20dp"
+            android:onClick="aboutbrother"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:id="@+id/btn3"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#edd609"
+            android:textColor="#0a1afb"
+            android:text="ABOUT MY SISTER"
+            android:textSize="20dp"
+            android:onClick="aboutsister"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:id="@+id/btn4"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ed09cf"
+            android:textColor="#0410f4"
+            android:text="MY FAMILY HISTORY"
+            android:textSize="20dp"
+            android:onClick="familyhistory"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:id="@+id/btn5"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Brother Son and Daughter"
+            android:onClick="son"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Brother Wife"
+            android:background="#7a2d5d"
+            android:onClick="wife"
+            android:layout_marginTop="20dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/welcomelow"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

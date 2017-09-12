@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="vertical"
+    tools:context="com.example.toshiba.menudrawer.Education">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/education_header"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Examination : SSC\nBoard/Institute : Barisal\nGroup/Subject/Degree : Science\nResult : 5.00\nYear : 2010\nExamination : HSC\nBoard/Institute : Barisal\nGroup/Subject/Degree : Science\nResult : 5.00\nYear : 2012\nExamination : BSC\nBoard/Institute : UITS\nGroup/Subject/Degree : IT\nCGPA : 3.70\nYear : 2014-2018\n" />
+
+</LinearLayout>

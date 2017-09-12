@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#512154"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.toshiba.happyfamily.Brother">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/welcome"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageView"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/salah"
+            android:id="@+id/imageView1"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABU SALAH"
+            android:textSize="20dp"
+            android:textColor="#ffd900"
+            android:id="@+id/textView"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="14dp"
+            android:textColor="#fbfafa"
+            android:id="@+id/textView1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 01-10-1980"
+            android:textSize="14dp"
+            android:textColor="#f9f4f4"
+            android:id="@+id/textView2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : AB+"
+            android:textSize="14dp"
+            android:textColor="#f9f5f5"
+            android:id="@+id/textView3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Charkhali Samabay High School"
+            android:textSize="14dp"
+            android:textColor="#f6f2f2"
+            android:id="@+id/textView4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="14dp"
+            android:textColor="#f9f6f6"
+            android:id="@+id/textView5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : Patuakhali Govt Collage"
+            android:textSize="14dp"
+            android:textColor="#f7f4f4"
+            android:id="@+id/textView6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : MA in English"
+            android:textSize="14dp"
+            android:textColor="#fa7705"
+            android:id="@+id/textView7"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +8801917860189"
+            android:textSize="14dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/textView9"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : salah.subidkhali@gmail.com"
+            android:textSize="14dp"
+            android:textColor="#f7f1f1"
+            android:id="@+id/textView10"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kalam"
+            android:id="@+id/im"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABUL KALAM"
+            android:textSize="20dp"
+            android:textColor="#fce301"
+            android:id="@+id/te"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="14dp"
+            android:textColor="#f7f5f5"
+            android:id="@+id/tex"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 01-10-1977"
+            android:textSize="14dp"
+            android:textColor="#f5f2f2"
+            android:id="@+id/text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : AB+"
+            android:textSize="14dp"
+            android:textColor="#f1ebeb"
+            android:id="@+id/text1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Charkhali Samabay High School"
+            android:textSize="14dp"
+            android:textColor="#f5f1f1"
+            android:id="@+id/text2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="14dp"
+            android:textColor="#f7f5f5"
+            android:id="@+id/text3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : Jagannath University"
+            android:textSize="14dp"
+            android:textColor="#faf8f8"
+            android:id="@+id/text4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : MA in English"
+            android:textSize="14dp"
+            android:textColor="#fa7705"
+            android:id="@+id/text5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +88019124096027"
+            android:textSize="14dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/text6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : azadcusbd24@gmail.com"
+            android:textSize="14dp"
+            android:textColor="#f5f2f2"
+            android:id="@+id/text7"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/basher"
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABUL Fazal"
+            android:textSize="20dp"
+            android:textColor="#ffe602"
+            android:id="@+id/te1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="14dp"
+            android:textColor="#faf8f8"
+            android:id="@+id/te2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 01-10-1977"
+            android:textSize="14dp"
+            android:textColor="#f5f0f0"
+            android:id="@+id/te3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : AB+"
+            android:textSize="14dp"
+            android:textColor="#f7f5f5"
+            android:id="@+id/te4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Charkhali Samabay High School"
+            android:textSize="14dp"
+            android:textColor="#f4efef"
+            android:id="@+id/te5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="14dp"
+            android:textColor="#faf8f8"
+            android:id="@+id/te6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : Govt. Tutomer college"
+            android:textSize="14dp"
+            android:textColor="#fbf9f9"
+            android:id="@+id/te7"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : MA in Islamic History and Culture"
+            android:textSize="14dp"
+            android:textColor="#fa7705"
+            android:id="@+id/te8"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +8801924449868"
+            android:textSize="14dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/te9"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : basher@gmail.com"
+            android:textSize="14dp"
+            android:textColor="#f9f2f2"
+            android:id="@+id/te10"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jafar"
+            android:id="@+id/img1"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABU JAFAR"
+            android:textSize="20dp"
+            android:textColor="#f9e800"
+            android:id="@+id/tex1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="14dp"
+            android:textColor="#f6f3f3"
+            android:id="@+id/tex2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 15-03-1987"
+            android:textSize="14dp"
+            android:textColor="#f6f2f2"
+            android:id="@+id/tex3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : O+"
+            android:textSize="14dp"
+            android:textColor="#fbf9f9"
+            android:id="@+id/tex4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Charkhali Samabay High School"
+            android:textSize="14dp"
+            android:textColor="#f4efef"
+            android:id="@+id/tex5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="14dp"
+            android:textColor="#f6f5f5"
+            android:id="@+id/tex6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : Govt. Tutomer college"
+            android:textSize="14dp"
+            android:textColor="#f5efef"
+            android:id="@+id/tex7"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : MBS in Finance"
+            android:textSize="14dp"
+            android:textColor="#fa7705"
+            android:id="@+id/tex8"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +8801940112025"
+            android:textSize="14dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/tex9"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : abujafar.ma143@gmail.com"
+            android:textSize="14dp"
+            android:textColor="#f6f3f3"
+            android:id="@+id/tex10"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/khayer"
+            android:id="@+id/img2"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABUL KHAYER"
+            android:textSize="20dp"
+            android:textColor="#fcec00"
+            android:id="@+id/t1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="14dp"
+            android:textColor="#fbf8f8"
+            android:id="@+id/t2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 25-12-1989"
+            android:textSize="14dp"
+            android:textColor="#f9f5f5"
+            android:id="@+id/t3"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : AB+"
+            android:textSize="14dp"
+            android:textColor="#f7f5f5"
+            android:id="@+id/t4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Charkhali Samabay High School"
+            android:textSize="14dp"
+            android:textColor="#f7f1f1"
+            android:id="@+id/t5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="14dp"
+            android:textColor="#f5f1f1"
+            android:id="@+id/t6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : Jagannath University"
+            android:textSize="14dp"
+            android:textColor="#f7f3f3"
+            android:id="@+id/t7"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : MA in English"
+            android:textSize="14dp"
+            android:textColor="#fa7705"
+            android:id="@+id/t8"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +8801965905472"
+            android:textSize="14dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/t9"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : khayer.ma@gmail.com"
+            android:textSize="14dp"
+            android:textColor="#f4efef"
+            android:id="@+id/t10"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.toshiba.happyfamily.Sayed"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/sayed"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAME : MD.ABU SAYED"
+            android:textSize="25dp"
+            android:textColor="#fad905"
+            android:id="@+id/textView"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender : male"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 01-10-1994"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Blood Group : AB+"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="School : Subidkhali R.I. High School"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="College : Subidkhali University College"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="University : University of Information Technology and Sciences"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department : Bsc in IT"
+            android:textSize="18dp"
+            android:textColor="#fa7705"
+            android:id="@+id/textView7"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NID : 19942696635000837"
+            android:textSize="18dp"
+            android:textColor="#05facd"
+            android:id="@+id/textVie8"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mobile : +8801516159149"
+            android:textSize="18dp"
+            android:textColor="#fa05d9"
+            android:id="@+id/textView9"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Email : mdabusayed.ma143@gmail.com"
+            android:textSize="18dp"
+            android:textColor="#fafaf8"
+            android:id="@+id/textView10"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Website : www.md-abu-sayed.github.io"
+            android:textSize="18dp"
+            android:textColor="#03fa3d"
+            android:id="@+id/textView11"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

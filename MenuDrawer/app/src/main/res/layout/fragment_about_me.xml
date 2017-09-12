@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.toshiba.menudrawer.AboutMe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/s"/>
+        <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:src="@drawable/about_header"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:textSize="25dp"
+        android:text="Name : MD.ABU SAYED\nFather's Name : MD.NUR MOHIMMED\nMother's Name : MRS.KAHINUR BEGUM\nDate of Birth : 1/10/1994 [DD/MM/YYYY]\nGender : Male\nReligion : Islam\nMarital Status : Single" />
+
+</LinearLayout>

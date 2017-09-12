@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeee09"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.toshiba.happyfamily.Sister">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sister"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sister Name : Jannatul Ferdush Mukta"
+        android:textSize="20dp"
+        android:textColor="#052afa"
+        android:id="@+id/textView"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date of Birth : 01-10-1992"
+            android:textSize="16dp"
+            android:textColor="#0b0b0b"
+            android:id="@+id/textView1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Husband Name : Md.Nurujjaman"
+            android:textSize="20dp"
+            android:textColor="#0d05fa"
+            android:id="@+id/textView2"
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ListViewCustomAdepter</string>
+    <string-array name="country">
+      <item>Bangladesh</item>
+      <item>India</item>
+      <item>Pakistan</item>
+      <item>USA</item>
+    </string-array>
+    <string-array name="discription">
+        <item>Bangladesh is bangladesh</item>
+        <item>India is a india</item>
+        <item>Pakistan is a pakistan</item>
+        <item>USA is a usa</item>
+    </string-array>
+</resources>
